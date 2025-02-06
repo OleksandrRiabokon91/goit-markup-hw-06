@@ -383,7 +383,7 @@ button {
   fill: #fff;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
@@ -407,18 +407,14 @@ button {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .hero {
     padding: 112px 0;
-    background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg-plansh.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     max-width: 768px;
     min-height: 436px;
   }
